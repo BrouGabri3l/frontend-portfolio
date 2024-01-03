@@ -1,0 +1,6 @@
+.hero {
+  @apply mx-auto text-white flex py-6 space-x-16  justify-between;
+}
+.hero h2 {
+  @apply font-semibold w-full text-3xl;
+}

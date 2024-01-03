@@ -1,0 +1,15 @@
+.heading {
+  @apply text-3xl uppercase w-fit text-[#171717] font-bold tracking-widest  border-b-white relative border-b-8  pb-1;
+}
+.heading-contrast {
+  @apply text-[#DBDBDB];
+}
+.heading-primary {
+  @apply border-b-primary;
+}
+.heading-secondary {
+  @apply border-b-secondary;
+}
+.heading-accent {
+  @apply border-b-accent;
+}

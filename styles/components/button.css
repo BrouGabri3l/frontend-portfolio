@@ -1,0 +1,12 @@
+.button {
+  @apply text-white px-4 py-3 rounded-md;
+}
+.button-primary {
+  @apply bg-primary;
+}
+.button-secondary {
+  @apply bg-secondary;
+}
+.button-accent {
+  @apply bg-accent;
+}
