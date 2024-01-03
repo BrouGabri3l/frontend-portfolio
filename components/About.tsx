@@ -3,6 +3,7 @@ import Heading from './common/Heading';
 import { ThemeVariationEnum } from '@/enums/ThemeVariationEnum';
 import Button from './common/Button';
 import Card from './common/Card';
+import HorizontalCard from './common/HorizontalCard';
 
 const About = () => {
   return (
@@ -26,7 +27,11 @@ const About = () => {
             <h4 className='col-span-4'>Experiências</h4>
             {/* <HorizontalCard title='' overline='' tags={[]} /> */}
             <div className='col-span-8'>
-              <Card image='' title='title' overline='overline' action={<></>} />
+              <HorizontalCard
+                title='title'
+                overline='overline'
+                description='novahaus'
+              />
             </div>
           </div>
         </div>
